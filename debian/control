@@ -1,0 +1,14 @@
+Source: ubcos-calamares
+Section: admin
+Priority: optional
+Maintainer: Ubcos Team <info@ubcos.github.io>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.6.2
+
+Package: ubcos-calamares
+Architecture: all
+Depends: ${misc:Depends},
+         calamares,
+         calamares-settings-ubuntu
+Description: Ubcos Calamares configuration
+ Calamares installer settings and branding for Ubcos Linux.

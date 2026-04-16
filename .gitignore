@@ -1,0 +1,14 @@
+# Build artifacts
+*.o
+*.pyc
+__pycache__/
+debian/*.debhelper
+debian/*.substvars
+debian/ubcos-*/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
