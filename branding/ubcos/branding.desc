@@ -1,8 +1,8 @@
 ---
 componentName: ubcos
 
-welcomeStyleCalamares: true
 welcomeExpandingLogo: true
+welcomeStyleCalamares: true
 
 strings:
     productName:         "Ubcos"
@@ -16,17 +16,37 @@ strings:
     supportUrl:          "https://github.com/Ubcos/issues"
     knownIssuesUrl:      "https://github.com/Ubcos/issues"
     releaseNotesUrl:     "https://github.com/Ubcos/releases"
+    donateUrl:           ""
 
 images:
     productLogo:         "logo.png"
-    productIcon:         "logo.png"
+    productIcon:         "icon.png"
     productWelcome:      "languages.png"
+    sidebar:             "sidebar.png"
+    background:          "background.jpg"
 
 slideshow:               "show.qml"
 slideshowAPI:            2
 
+# Window settings
+window:
+    width: 800
+    height: 520
+    minimumWidth: 700
+    minimumHeight: 450
+    
 style:
     sidebarBackground:   "#1e2127"
     sidebarText:         "#abb2bf"
     sidebarTextSelect:   "#61afef"
     sidebarTextHighlight:"#61afef"
+    
+    navigationTextColor:     "#abb2bf"
+    navigationTextSelect:   "#61afef"
+    
+    buttonTextColor:     "#1e2127"
+    buttonBackgroundColor: "#61afef"
+    
+    inputBackgroundColor: "#282c34"
+    inputTextColor:      "#abb2bf"
+    inputBorderColor:    "#3e4451"
